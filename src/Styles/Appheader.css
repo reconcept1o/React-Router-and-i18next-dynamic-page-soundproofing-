@@ -1,0 +1,150 @@
+
+
+.basic-nav-dropdown .dropdown-item a {
+  text-decoration: none;
+  color:red;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+}
+
+
+.contact-info {
+  margin-left: 50px; 
+  font-size: 14px; 
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.contact-item i {
+  margin-right: 5px; 
+}
+
+.custom-dropdown-toggle {
+  font-size: 10px; 
+  margin-right: 10px; 
+  background-color: rgb(188, 77, 58);
+
+}
+
+
+.language {
+  margin-top: 10px; 
+}
+
+.lang {
+  font-size: 14px; 
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: rgb(254, 254, 254);
+}
+
+
+.navbar-nav .nav-link {
+  color: #e40505; 
+  margin-right: 15px; 
+  font-size: 16px; 
+  text-decoration: none; 
+  background-color: rgb(252, 248, 248);
+
+  
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00; 
+}
+
+/* Navbar dropdown linkleri*/
+.navbar-nav .nav-item .nav-link {
+  color: #0e0b0b; 
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffcc00; 
+}
+
+
+.language .lang {
+  color: #826969; 
+}
+
+.language .lang:hover {
+  color: #ffcc00; }
+
+/* Navbar background*/
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px; }
+
+.envelope-icon {
+  color: #a41818; 
+}
+
+.phone-icon {
+  color: #00ff00; 
+}
+
+.facebook-icon {
+  color: #111190; 
+}
+
+.navbar-nav .nav-item .nav-link {
+  text-decoration: none !important; 
+}
+
+.custom-navbar {
+
+  top: 0;
+  z-index: 1000;
+
+  height: 120px;
+}
+/* mobil menü */
+.navbar-toggler-icon {
+  background-color: #d4280e; 
+  color:#00ff00;
+}
+
+
+.navbar-toggler-icon:hover {
+  background-color: #ea290f; 
+}
+
+
+
+@media (max-width: 560px) {
+ .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+  .contact-info {
+    margin-top: 10px; 
+  }
+
+  .contact-item {
+    margin-right: 0;
+    margin-bottom: 5px; 
+  }
+  .navbar{
+    background: rgb(254, 254, 254);
+  }
+  .contact-info{
+    background-color: rgb(225, 76, 76);
+  }
+  .social-icons {
+    background-color: red;
+  }
+}

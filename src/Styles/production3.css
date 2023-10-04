@@ -1,0 +1,60 @@
+
+.portfolio-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #e71919;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+
+.portfolio-wrapper img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+
+.portfolio-wrapper .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(223, 22, 22, 0.8);
+  color: rgb(227, 36, 36);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+
+.portfolio-wrapper:hover .label {
+  opacity: 1;
+}
+
+.portfolio-wrapper .text-center {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  color: rgb(23, 17, 17);
+  padding: 10px;
+}
+
+
+.portfolio-wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.portfolio-wrapper p {
+  font-size: 16px;
+  color: #ca1616;
+  margin-bottom: 10px;
+}
+

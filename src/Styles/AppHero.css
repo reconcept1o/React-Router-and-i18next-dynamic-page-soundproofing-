@@ -1,0 +1,78 @@
+/* Hero bloğu  */
+.hero-block {
+  position: relative; 
+  height: 100vh; 
+  background-color: #333; 
+  color: #fff;
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carousel-caption {
+  background-color: rgba(12, 4, 4, 0.7); 
+  padding-top: 15px; 
+  border-radius: 5px; 
+   position: absolute;
+  bottom: 200px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+   margin: 0 auto;
+   
+}
+
+.carousel-caption h2 {
+  font-size: 28px; 
+  font-weight: bold; 
+  color: white; 
+  margin-bottom: 10px; 
+ 
+}
+
+.carousel-caption p {
+  font-size: 18px; 
+  color: #f0f0f0; 
+}
+
+
+.carousel-item img {
+  height: 100%; 
+  width: 100%;
+  object-fit:cover; 
+  
+  
+}
+
+
+@media (max-width: 1025px) {
+  .carousel-caption {
+    bottom: 50px; 
+  }
+}
+
+
+@media (max-width: 566px) {
+  .hero-block {
+    padding-top: 670px; 
+  }
+  .carousel {
+    display: block;
+    visibility: visible;
+    opacity: 11;
+    max-height: 100px;
+    overflow: visible;
+  }
+ 
+}
+@media (max-width: 488px) {
+
+ .hero-block{
+  padding-top: 120px;
+  
+ }
+
+}
+
+

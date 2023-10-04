@@ -1,0 +1,82 @@
+/* ProductDetail.css */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 46px;
+  line-height: 3.5;
+  margin-bottom: 10px;
+}
+.detailimage {
+   padding-top: 120px;
+  padding-bottom: 20px;
+}
+.detail-text{
+    padding-top: 120px;
+  padding-bottom: 20px;
+}
+    
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel img {
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Modal styles */
+.modal-dialog {
+  max-width: 90%;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+}

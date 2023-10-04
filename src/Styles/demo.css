@@ -1,0 +1,136 @@
+.portfolio-wrapper a {
+  text-decoration: none;
+}
+
+.portfolio-wrapper a:hover {
+  border-bottom: none; 
+}
+
+
+body {
+   background-image: url('../picture//backgorund2.jpg'); /* Background image */
+  background-size:cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+   
+  font-family: sans-serif;
+  font-size: 1px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-weight: 500;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+
+}
+
+
+#production1 {
+  
+
+  padding: 10px 0; 
+}
+
+.title-holder {
+  margin-bottom: 10px;
+}
+
+.title-holder h2 {
+  font-size: 62px;
+  font-weight: bold;
+  color: red; 
+}
+
+.title-holder p {
+  font-size: 18px;
+  color: #dc1414; 
+  font-size: 22px;
+  font-weight: 800;
+}
+
+/* Style the portfolio items */
+.portfolio-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px red;
+  margin-bottom: 20px;
+  background-color: red; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-wrapper .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  color: rgb(211, 7, 7);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.portfolio-wrapper .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(38, 24, 24, 0.8);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-wrapper:hover .label {
+  opacity: 1;
+}
+
+
+.portfolio-wrapper a {
+  text-decoration: none;
+  color: #4dac27; 
+}
+
+.portfolio-wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.portfolio-wrapper p {
+  font-size: 16px;
+  color: #e60606; 
+  margin-bottom: 10px;
+}

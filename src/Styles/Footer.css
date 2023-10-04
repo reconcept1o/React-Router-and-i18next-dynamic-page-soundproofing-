@@ -1,0 +1,30 @@
+/* Footer animasyonu için stil */
+#footer {
+  padding: 5px 0;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Geçiş efektleri */
+}
+
+#footer p {
+  display: inline-block;
+  margin: 0;
+}
+
+/* Normal durum */
+#footer:hover {
+  background-color: #21b24d; /* Renk değiştirme */
+  transform: scale(1.1); /* Büyütme */
+}
+
+
+@media (max-width: 1025px) {
+  .align-items-center {
+    flex-direction: column; 
+    text-align: center;}
+
+  .youtube-video {
+    margin-top: 20px; 
+  }
+}
